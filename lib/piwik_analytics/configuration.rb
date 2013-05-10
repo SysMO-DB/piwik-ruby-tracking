@@ -1,7 +1,7 @@
 
 module PiwikAnalytics
   class Configuration
-
+    attr_writer :url, :id_site, :use_async, :disabled
     #
     # The url of the Piwik instance
     # Defaults to localhost
