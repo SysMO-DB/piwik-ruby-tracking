@@ -1,10 +1,10 @@
 spec = Gem::Specification.new do |s|
   s.name              = 'piwik_analytics'
-  s.version           = '1.0.1'
+  s.version           = '1.1.0'
   s.date              = Time.now.strftime "%Y-%m-%d"
   s.author            = 'Fabian Becker'
   s.email             = 'halfdan@xnorfz.de'
-  s.homepage          = 'https://github.com/halfdan/piwik_analytics/'
+  s.homepage          = 'https://github.com/SysMO-DB/piwik-ruby-tracking'
   s.summary           = "[Rails] Easily include Piwik tracking in your Rails application."
 
   s.description = <<-DESC
@@ -17,7 +17,7 @@ spec = Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
                 
-  s.add_runtime_dependency 'rails', '>= 3.0.0'
+  s.add_runtime_dependency 'rails', '>= 4.0.0'
   s.add_dependency 'actionpack'
   s.add_dependency 'activesupport'
 
